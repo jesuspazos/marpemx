@@ -1,0 +1,61 @@
+Levantar ambiente de proyecto Rojo Carmesí
+
+1. Descargar e instalar composer.exe, se requiere por que nos ayudara a descargar las dependencias 
+del proyecto de laraverl
+https://getcomposer.org/Composer-Setup.exe 
+
+2.clonar el proyecto mediante GIT
+https://gitlab.com/burger69/rojocarmesi.git
+
+3.Una vez clonado el proyecto, y tenerlo en el local 
+abrir consola de windows (CMD) en modo administrador y posicionarme en la carpeta del proyecto
+mediante cd..
+
+4.Una vez estando en el directorio del proyecto correr la siguiente linea de comando "composer install"
+esto instalara las dependencias con base a la configuracion del archivo "composer.json"
+
+5. Levantar el script de sql, para crear la BD
+
+6. Configurar el archivo .env con base a la siguiente informacion (ignorar asteriscos)
+
+********************
+APP_NAME=
+APP_ENV=local
+APP_KEY=base64:VIpWjFo1rLKmfWRANOOxpYJMKWwaXrNyyc99M2VPH1E=
+APP_DEBUG=true
+APP_LOG_LEVEL=debug
+APP_URL=http://localhost/
+
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=rojo_carmesi
+DB_USERNAME=root
+DB_PASSWORD=''
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+SESSION_DRIVER=file
+QUEUE_DRIVER=sync
+
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=japj784@gmail.com
+MAIL_PASSWORD=zvyjadhgvveiovjo
+MAIL_ENCRYPTION=tls
+MAIL_FROM_NAME = Jesus
+
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
+
+MP_APP_ID = 2387250165183315
+MP_APP_SECRET = RJVk6zW9WX7u5vnaS6l8SgIAtgbkwbXD
+
+
+********************
